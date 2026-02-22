@@ -4,16 +4,16 @@
 
 /* --- Nav override: always dark on works page --- */
 .nav-dark .nav-logo-text {
-  color: var(--color-text);
+  color: var(--color-dark-text);
 }
 
 .nav-dark .nav-link {
-  color: var(--color-text-secondary);
+  color: var(--color-dark-text-secondary);
 }
 
 .nav-dark .nav-link:hover,
 .nav-dark .nav-link.active {
-  color: var(--color-text);
+  color: var(--color-dark-text);
 }
 
 .nav-dark .nav-link.active::after {
@@ -21,11 +21,15 @@
 }
 
 .nav-dark .nav-social-link {
-  color: var(--color-text-secondary);
+  color: var(--color-dark-text-secondary);
 }
 
 .nav-dark .nav-social-link:hover {
-  color: var(--color-text);
+  color: var(--color-dark-text);
+}
+
+.nav-dark .nav-menu-btn span {
+  background: var(--color-dark-text);
 }
 
 /* --- Works Hero --- */
