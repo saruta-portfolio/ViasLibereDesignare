@@ -75,6 +75,24 @@
     ]
   },
   {
+    "id": "web-asahitec",
+    "title": "Web Design-アサヒテック株式会社",
+    "category": "web",
+    "categoryLabel": "Web Design",
+    "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "year": "2025",
+    "client": "アサヒテック株式会社",
+    "role": "Web Design",
+    "description": "（自由記述）",
+    "gallery": [
+      {
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "caption": "PC TOP"
+      }
+    ],
+    "thumbnail": "/uploads/screencapture-asahitec-studio-site-home-2025-10-28-23_21_15.png"
+  },
+  {
     "id": "ec-platform",
     "title": "E-Commerce Platform",
     "category": "web",

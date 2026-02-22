@@ -12,7 +12,7 @@ const work = worksData.find((w) => w.id === workId);
 
 if (!work) {
   // Fallback: redirect to works list
-  window.location.href = "/works/";
+  window.location.href = "/ViasLibereDesignare/works/";
 }
 
 // --- Populate page ---
