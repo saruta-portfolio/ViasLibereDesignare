@@ -66,9 +66,17 @@ async function initDetail() {
         const imgPath = item.image.startsWith("/")
           ? item.image.slice(1)
           : item.image;
+        const fullSrc = `${BASE}${imgPath}`;
+        div.classList.add("has-image");
+        div.dataset.src = fullSrc;
         mediaHtml = `
           <div class="detail-gallery-image">
-            <img src="${BASE}${imgPath}" alt="${item.caption || ""}" loading="lazy">
+            <img src="${fullSrc}" alt="${item.caption || ""}" loading="lazy">
+            <div class="detail-gallery-expand">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+              </svg>
+            </div>
           </div>
         `;
       } else {
@@ -119,6 +127,50 @@ async function initDetail() {
       </div>
     `;
     relatedContainer.appendChild(a);
+  });
+
+  // Setup Gallery Modal
+  setupGalleryModal();
+}
+
+// --- Gallery Modal Logic ---
+function setupGalleryModal() {
+  const modal = document.getElementById("gallery-modal");
+  const modalImg = document.getElementById("gallery-modal-img");
+  const modalClose = document.getElementById("gallery-modal-close");
+  const modalOverlay = document.getElementById("gallery-modal-overlay");
+  if (!modal || !modalImg) return;
+
+  const galleryItems = document.querySelectorAll(".detail-gallery-item.has-image");
+
+  function openModal(src) {
+    modalImg.src = src;
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    modal.classList.remove("active");
+    document.body.style.overflow = "";
+    setTimeout(() => {
+      modalImg.src = "";
+    }, 400); // Wait for transition
+  }
+
+  galleryItems.forEach(item => {
+    item.addEventListener("click", () => {
+      const src = item.dataset.src;
+      if (src) openModal(src);
+    });
+  });
+
+  modalClose?.addEventListener("click", closeModal);
+  modalOverlay?.addEventListener("click", closeModal);
+  
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modal.classList.contains("active")) {
+      closeModal();
+    }
   });
 }
 
