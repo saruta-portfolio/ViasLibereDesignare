@@ -1,25 +1,24 @@
 {
-  "id": "mobile-app",
-  "title": "Mobile App Design",
+  "id": "ceeq",
+  "title": "ceeq-管理者画面",
   "category": "uiux",
   "categoryLabel": "UI/UX",
   "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
   "year": "2024",
-  "client": "Sample Client D",
-  "role": "UI/UX Design / Prototyping",
-  "description": "モバイルアプリのUI/UXデザインプロジェクト。ユーザーリサーチから情報設計、プロトタイピングまでの全工程を担当。直感的な操作性と美しいビジュアルを両立させたデザインを実現しました。",
+  "client": "ceeq",
+  "role": "UI/UX Design",
+  "description": "■ Design Concept\n管理者画面のUI/UXデザインを担当しました。\n直感的な操作性とシンプルなビジュアルを両立させたデザインを目指しました。\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Figma\n■ 担当領域： デザインシステム、情報設計",
   "gallery": [
     {
+      "image": "/uploads/ログイン.png",
       "gradient": "linear-gradient(135deg, #4facfe 0%, #00c8fe 100%)",
-      "caption": "ホーム画面"
+      "caption": "ログイン画面"
     },
     {
-      "gradient": "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",
-      "caption": "詳細画面"
-    },
-    {
+      "image": "/uploads/アカウント.png",
       "gradient": "linear-gradient(135deg, #00c8fe 0%, #00f2fe 50%, #4facfe 100%)",
-      "caption": "設定画面"
+      "caption": "アカウント設定画面"
     }
-  ]
+  ],
+  "thumbnail": "/uploads/ログイン.png"
 }
