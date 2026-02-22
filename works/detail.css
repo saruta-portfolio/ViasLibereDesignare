@@ -3,6 +3,13 @@
    ============================================ */
 
 /* --- Nav override: always dark --- */
+.nav-dark {
+  background: rgba(254, 253, 246, 0.85); /* var(--color-cream) with opacity */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(26, 26, 26, 0.05);
+}
+
 .nav-dark .nav-logo-text {
   color: var(--color-text);
 }
@@ -89,13 +96,13 @@
   font-size: var(--size-sm);
   font-weight: 400;
   letter-spacing: 0.05em;
-  color: var(--color-text-secondary);
+  color: var(--color-orange);
   margin-bottom: var(--space-xl);
-  transition: color 0.3s, transform 0.3s var(--ease-out-expo);
+  transition: opacity 0.3s, transform 0.3s var(--ease-out-expo);
 }
 
 .detail-back-link:hover {
-  color: var(--color-orange);
+  opacity: 0.7;
   transform: translateX(-4px);
 }
 
@@ -106,10 +113,10 @@
   font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--color-orange);
+  color: var(--color-white);
+  background: var(--color-orange);
   margin-bottom: var(--space-md);
   padding: 6px 16px;
-  border: 1px solid rgba(232, 101, 46, 0.3);
   border-radius: var(--radius-full);
 }
 
@@ -171,6 +178,7 @@
   font-size: var(--size-base);
   color: var(--color-dark-text-secondary);
   line-height: 2;
+  white-space: pre-wrap;
 }
 
 /* --- Gallery --- */
