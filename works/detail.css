@@ -88,6 +88,14 @@
   padding-top: calc(var(--space-4xl) + 60px);
 }
 
+.detail-hero-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
 .detail-back-link {
   display: inline-flex;
   align-items: center;
@@ -97,7 +105,6 @@
   font-weight: 400;
   letter-spacing: 0.05em;
   color: var(--color-orange);
-  margin-bottom: var(--space-xl);
   transition: opacity 0.3s, transform 0.3s var(--ease-out-expo);
 }
 
@@ -115,7 +122,6 @@
   text-transform: uppercase;
   color: var(--color-white);
   background: var(--color-orange);
-  margin-bottom: var(--space-md);
   padding: 6px 16px;
   border-radius: var(--radius-full);
 }
