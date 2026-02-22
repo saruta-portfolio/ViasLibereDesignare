@@ -1,12 +1,12 @@
 {
-  "id": "dashboard",
-  "title": "Dashboard Design",
+  "id": "shoken",
+  "title": "UIUX Design",
   "category": "uiux",
   "categoryLabel": "UI/UX",
   "gradient": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
-  "year": "2023",
-  "client": "Sample Client I",
-  "role": "UI/UX Design / Data Visualization",
+  "year": "2024",
+  "client": "証券会社",
+  "role": "UI/UX Design",
   "description": "管理画面のUI/UXデザイン。複雑なデータを直感的に把握できるダッシュボードを設計しました。データビジュアライゼーションにより、意思決定を支援するインターフェースを実現しました。",
   "gallery": [
     {
