@@ -1,25 +1,19 @@
 {
   "id": "editorial-design",
-  "title": "Editorial Design",
-  "category": "graphic",
-  "categoryLabel": "Graphic Design",
+  "title": "いろいろなないろ",
+  "category": "web",
+  "categoryLabel": "Web Design",
   "gradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fdfcfb 100%)",
-  "year": "2024",
-  "client": "Sample Client H",
-  "role": "Editorial Design / Typography",
-  "description": "雑誌・エディトリアルデザインのプロジェクト。読みやすさと美しさを両立したタイポグラフィとレイアウトで、コンテンツの魅力を最大限に引き出しました。",
+  "year": "2019",
+  "client": "株式会社なないろ",
+  "role": "Web Design",
+  "description": "■ Design Concept\n株式会社なないろ様のコーポレートサイトを制作させていただきました。\n\nネオン菅の写真をメインに、色合いやギミックにこだわったデザインにしています。\n\nロケコーディネート等で日頃から弊社も大変お世話になっています。\n撮影に関してお困りの際は、個性あふれる魅力的なメンバーの揃った、なないろ様に「いろいろ、なんでも」相談してみてください！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
   "gallery": [
     {
-      "gradient": "linear-gradient(135deg, #ff9a9e 0%, #e8a0a0 100%)",
-      "caption": "表紙デザイン"
-    },
-    {
-      "gradient": "linear-gradient(135deg, #fecfef 0%, #ff9a9e 100%)",
-      "caption": "誌面レイアウト"
-    },
-    {
+      "image": "/uploads/03_b-2.jpg",
       "gradient": "linear-gradient(135deg, #fdfcfb 0%, #fecfef 100%)",
-      "caption": "タイポグラフィ"
+      "caption": "トップページ"
     }
-  ]
+  ],
+  "thumbnail": "/uploads/00.jpg"
 }
