@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Saruta-H/ViasLibereDesignare
   branch: main
-  base_url: https://sveltia-cms-auth.netlify.app
 
 media_folder: public/uploads
 public_folder: /uploads
