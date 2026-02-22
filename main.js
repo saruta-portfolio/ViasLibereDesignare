@@ -343,11 +343,10 @@ magneticBtns.forEach((btn) => {
 // --- Contact Form ---
 const contactForm = document.getElementById("contact-form");
 if (contactForm) {
-  contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
+  contactForm.addEventListener("submit", () => {
     const btn = contactForm.querySelector(".btn-submit span");
     const originalText = btn.textContent;
-    btn.textContent = "Sent! ✓";
+    btn.textContent = "Opening Mail Client...";
     setTimeout(() => {
       btn.textContent = originalText;
       contactForm.reset();
