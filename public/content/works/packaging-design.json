@@ -1,25 +1,29 @@
 {
   "id": "packaging-design",
-  "title": "Packaging Design",
+  "title": "Branding-BUBBLES",
   "category": "branding",
   "categoryLabel": "Branding",
   "gradient": "linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)",
-  "year": "2024",
-  "client": "Sample Client F",
-  "role": "Packaging Design / Brand Guide",
-  "description": "商品パッケージのデザインとブランドガイドラインの策定。店頭での視認性とブランドの世界観を両立させたパッケージデザインを制作しました。素材選定から印刷管理まで一貫して対応しました。",
+  "year": "2019",
+  "client": "ジューススタンド BUBBLES",
+  "role": "Logo / Shop Card / Packaging Design / Web Design / Brand Guide",
+  "description": "■ Design Concept\n青山、駒沢と店舗を構えるジューススタンドBUBBLESが\nNEWoMan新宿2F エキナカに新店舗をオープンするにあたり\nBUBBLES全体のコミュニケーションの整理から\nクリエーティブ開発のお手伝いをさせていただきました。\n\n注文してから、目の前でじっくりと絞ってくれる、\n果物や野菜の本質そのままの味をお楽しみください！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop など\n■ 担当領域： Webデザインアシスタント、グラフィックデザインアシスタント、撮影アシスタント",
   "gallery": [
     {
+      "image": "/uploads/01-3.jpg",
       "gradient": "linear-gradient(135deg, #fccb90 0%, #c060d0 100%)",
-      "caption": "パッケージ正面"
+      "caption": "ロゴ、パッケージ"
     },
     {
+      "image": "/uploads/03.jpg",
       "gradient": "linear-gradient(135deg, #d57eeb 0%, #fccb90 100%)",
-      "caption": "パッケージ展開"
+      "caption": "ショップカード、ショッピングバッグ"
     },
     {
+      "image": "/uploads/02 (1).jpg",
       "gradient": "linear-gradient(135deg, #c060d0 0%, #fccb90 50%, #d57eeb 100%)",
-      "caption": "ブランドガイド"
+      "caption": "Webサイト"
     }
-  ]
+  ],
+  "thumbnail": "/uploads/04-1.jpg"
 }
