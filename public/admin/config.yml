@@ -40,8 +40,19 @@ collections:
         name: gallery
         widget: list
         fields:
-          - { label: "グラデーション CSS", name: gradient, widget: string }
-          - { label: "キャプション", name: caption, widget: string }
+          - { label: "画像", name: image, widget: image, required: false }
+          - {
+              label: "グラデーション CSS",
+              name: gradient,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: "キャプション",
+              name: caption,
+              widget: string,
+              required: false,
+            }
       - {
           label: "サムネイル画像",
           name: thumbnail,

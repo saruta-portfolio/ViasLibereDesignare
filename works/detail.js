@@ -3,7 +3,7 @@
    ============================================ */
 import { loadWorksData } from "./data.js";
 
-const BASE = import.meta.env.BASE_URL || '/';
+const BASE = import.meta.env.BASE_URL || "/";
 
 // --- Initialize Detail Page dynamically ---
 async function initDetail() {
@@ -22,25 +22,30 @@ async function initDetail() {
   // Meta
   document.title = `${work.title} | ViasLibereDesignare`;
   const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", work.description.slice(0, 120));
+  if (metaDesc)
+    metaDesc.setAttribute("content", work.description.slice(0, 120));
 
   // Hero
   const heroSection = document.getElementById("detail-hero");
   const heroImg = document.getElementById("detail-hero-img");
   const heroBg = document.getElementById("detail-hero-bg");
-  
-  const thumbPath = work.thumbnail && work.thumbnail.startsWith('/') ? work.thumbnail.slice(1) : work.thumbnail;
+
+  const thumbPath =
+    work.thumbnail && work.thumbnail.startsWith("/")
+      ? work.thumbnail.slice(1)
+      : work.thumbnail;
   if (thumbPath) {
     heroImg.src = `${BASE}${thumbPath}`;
     heroImg.alt = work.title;
-    heroBg.style.display = 'none';
+    heroBg.style.display = "none";
   } else {
-    heroImg.style.display = 'none';
+    heroImg.style.display = "none";
     heroBg.style.background = work.gradient;
-    heroSection.classList.add('is-fallback');
+    heroSection.classList.add("is-fallback");
   }
 
-  document.getElementById("detail-category").textContent = work.categoryLabel || work.category;
+  document.getElementById("detail-category").textContent =
+    work.categoryLabel || work.category;
   document.getElementById("detail-title").textContent = work.title;
 
   // Info
@@ -56,9 +61,23 @@ async function initDetail() {
       const div = document.createElement("div");
       div.className = "detail-gallery-item";
       // Update this later if gallery accepts images
+      let mediaHtml = "";
+      if (item.image) {
+        const imgPath = item.image.startsWith("/")
+          ? item.image.slice(1)
+          : item.image;
+        mediaHtml = `
+          <div class="detail-gallery-image">
+            <img src="${BASE}${imgPath}" alt="${item.caption || ""}" loading="lazy">
+          </div>
+        `;
+      } else {
+        mediaHtml = `<div class="detail-gallery-image" style="background: ${item.gradient || "var(--color-surface)"}"></div>`;
+      }
+
       div.innerHTML = `
-        <div class="detail-gallery-image" style="background: ${item.gradient}"></div>
-        <span class="detail-gallery-caption">${item.caption}</span>
+        ${mediaHtml}
+        <span class="detail-gallery-caption">${item.caption || ""}</span>
       `;
       galleryContainer.appendChild(div);
     });
@@ -82,12 +101,15 @@ async function initDetail() {
     const a = document.createElement("a");
     a.className = "detail-related-item";
     a.href = `detail.html?id=${item.id}`;
-    
-    const relThumbPath = item.thumbnail && item.thumbnail.startsWith('/') ? item.thumbnail.slice(1) : item.thumbnail;
+
+    const relThumbPath =
+      item.thumbnail && item.thumbnail.startsWith("/")
+        ? item.thumbnail.slice(1)
+        : item.thumbnail;
     const bgStyle = relThumbPath
       ? `background-image: url('${BASE}${relThumbPath}'); background-size: cover; background-position: center;`
       : `background: ${item.gradient}`;
-    
+
     a.innerHTML = `
       <div class="detail-related-image" style="${bgStyle}">
         <div class="detail-related-overlay">
