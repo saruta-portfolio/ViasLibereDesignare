@@ -937,12 +937,12 @@ body .cursor {
   margin-top: var(--space-2xl);
 }
 
-.btn-works-all {
+.btn-primary.btn-works-all {
   color: var(--color-dark-text);
-  border-color: rgba(26, 26, 26, 0.2);
+  border-color: rgba(26, 26, 26, 0.4);
 }
 
-.btn-works-all:hover {
+.btn-primary.btn-works-all:hover {
   border-color: var(--color-orange);
   color: var(--color-orange);
 }
