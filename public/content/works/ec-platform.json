@@ -7,12 +7,17 @@
   "year": "2019",
   "client": "カルビー株式会社",
   "role": "Web Design",
-  "description": "■ Design Concept\n話題のASMRを活用した、コンテンツ開発のお手伝いをさせていただきました！\n\nおいしい商品たちが、食感キャラクターとしてコンテンツ化！\n指でタップすると「ザクッ ザクッ」と咀嚼音を鳴らし、触れた分だけ大きく成長。\n自分だけの食感キャラクター育成コンテンツの誕生です！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザイン",
+  "description": "■ Design Concept\n話題のASMRを活用した、コンテンツ開発のお手伝いをさせていただきました！\n\nおいしい商品たちが、食感キャラクターとしてコンテンツ化！\n指でタップすると「ザクッ ザクッ」と咀嚼音を鳴らし、触れた分だけ大きく成長。\n自分だけの食感キャラクター育成コンテンツの誕生です！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
   "gallery": [
     {
       "image": "/uploads/03_b-1.jpg",
       "gradient": "linear-gradient(135deg, #0c3483 0%, #6b8cce 100%)",
       "caption": "サイト一覧"
+    },
+    {
+      "image": "/uploads/04_c.jpg",
+      "gradient": "",
+      "caption": "キャラクター一覧"
     }
   ],
   "thumbnail": "/uploads/01-2.jpg"
