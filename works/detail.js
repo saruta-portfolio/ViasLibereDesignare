@@ -25,14 +25,19 @@ async function initDetail() {
   if (metaDesc) metaDesc.setAttribute("content", work.description.slice(0, 120));
 
   // Hero
+  const heroSection = document.getElementById("detail-hero");
+  const heroImg = document.getElementById("detail-hero-img");
   const heroBg = document.getElementById("detail-hero-bg");
+  
   const thumbPath = work.thumbnail && work.thumbnail.startsWith('/') ? work.thumbnail.slice(1) : work.thumbnail;
   if (thumbPath) {
-    heroBg.style.backgroundImage = `url('${BASE}${thumbPath}')`;
-    heroBg.style.backgroundSize = "cover";
-    heroBg.style.backgroundPosition = "center";
+    heroImg.src = `${BASE}${thumbPath}`;
+    heroImg.alt = work.title;
+    heroBg.style.display = 'none';
   } else {
+    heroImg.style.display = 'none';
     heroBg.style.background = work.gradient;
+    heroSection.classList.add('is-fallback');
   }
 
   document.getElementById("detail-category").textContent = work.categoryLabel || work.category;
