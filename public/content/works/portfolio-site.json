@@ -10,17 +10,20 @@
   "description": "個人ポートフォリオサイトのデザイン・開発をしました。\nクリエイターの個性と作品を最大限に引き立てるミニマルなデザインを採用しています。\nパフォーマンスとアニメーションにこだわった制作を行いました。\n\n■ 制作期間： 約1ヶ月\n■ 使用ツール： Figma,Antigravity,Github\n■ 担当領域： Webデザイン、コーディング、情報設計",
   "gallery": [
     {
+      "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-2026-02-22-19_11_56.png",
       "gradient": "linear-gradient(135deg, #89f7fe 0%, #5090e8 100%)",
       "caption": "トップページ"
     },
     {
+      "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-works-2026-02-22-19_14_36.png",
       "gradient": "linear-gradient(135deg, #66a6ff 0%, #89f7fe 100%)",
-      "caption": "作品ページ"
+      "caption": "作品一覧ページ"
     },
     {
+      "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-works-detail-html-2026-02-22-19_15_04.png",
       "gradient": "linear-gradient(135deg, #5090e8 0%, #66a6ff 100%)",
-      "caption": "プロフィール"
+      "caption": "作品詳細ページ"
     }
   ],
-  "thumbnail": ""
+  "thumbnail": "/uploads/スクリーンショット 2026-02-22 18.45.00.png"
 }
