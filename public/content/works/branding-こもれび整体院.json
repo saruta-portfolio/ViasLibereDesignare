@@ -1,0 +1,29 @@
+{
+  "id": "komorebi",
+  "title": "Branding-こもれび整体院",
+  "category": "branding",
+  "categoryLabel": "Branding / Graphic Design",
+  "gradient": "#ffffff",
+  "year": "2026",
+  "client": "こもれび整体院",
+  "role": "Branding / Graphic Design",
+  "description": "■ Design Concept\nこもれび整体院のイメージを院長様が持っていらしゃったのでトータルデザインしました。\nテーマ：辛い症状に、確かな技術と希望のこもれびを。\n陽の光で優しさと暖かさに包まれるような自然体でいられる感じをロゴで表現しました。\n全体のトンマナを統一して安心して施術を受けてもらえるように意識しました。\nターゲット：30〜40代主婦の方々\n日々の疲れなどをこもれびで癒します。\n\n■ 制作期間： 約2ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： ロゴ制作、名刺制作、診察券制作、チラシ制作、ウィンドウサイン制作",
+  "gallery": [
+    {
+      "image": "/uploads/こもれび_チラシ-01.jpg",
+      "gradient": "",
+      "caption": "チラシ"
+    },
+    {
+      "image": "/uploads/1769769344705-01.jpg",
+      "gradient": "",
+      "caption": "ウィンドウサイン"
+    },
+    {
+      "image": "/uploads/Gemini_Generated_Image_rtdawprtdawprtda.png",
+      "gradient": "",
+      "caption": "名刺、診察券"
+    }
+  ],
+  "thumbnail": "/uploads/こもれび_logo_logo_01.jpg"
+}
