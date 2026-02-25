@@ -1,78 +1,32 @@
 [
   {
-    "id": "brand-identity",
-    "title": "Brand Identity Design",
-    "category": "branding",
-    "categoryLabel": "Branding",
-    "gradient": "linear-gradient(135deg, #ccff00 0%, #1a2e1a 100%)",
-    "year": "2025",
-    "client": "Sample Client A",
-    "role": "Brand Strategy / Logo Design / VI Design",
-    "description": "企業の本質を捉えたブランドアイデンティティを構築。ロゴデザインからVI（ビジュアルアイデンティティ）システム全体の設計まで、一貫したブランド体験を創出しました。市場調査やヒアリングを通じてブランドの核となる価値を明確にし、視覚的な表現へと落とし込みました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #ccff00 0%, #3a5a1a 100%)",
-        "caption": "ロゴデザイン"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #2a4a0a 0%, #ccff00 100%)",
-        "caption": "名刺デザイン"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #ccff00 0%, #1a2e1a 50%, #ccff00 100%)",
-        "caption": "ブランドガイドライン"
-      }
-    ]
-  },
-  {
-    "id": "corporate-website",
-    "title": "Corporate Website",
+    "id": "portfolio-site",
+    "title": "Portfolio Site",
     "category": "web",
     "categoryLabel": "Web Design",
-    "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-    "year": "2025",
-    "client": "Sample Client B",
-    "role": "Web Design / Frontend Development",
-    "description": "コーポレートサイトのフルリニューアルプロジェクト。ユーザビリティとブランドイメージの両立を実現し、モダンなデザインと高いパフォーマンスを兼ね備えたサイトを構築しました。レスポンシブ対応はもちろん、アクセシビリティにも配慮した設計を行いました。",
+    "gradient": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+    "year": "2026",
+    "client": "ViasLibereDesignare",
+    "role": "Web Design / Development",
+    "description": "個人ポートフォリオサイトのデザイン・開発をしました。\nクリエイターの個性と作品を最大限に引き立てるミニマルなデザインを採用しています。\nパフォーマンスとアニメーションにこだわった制作を行いました。\n\n■ 制作期間： 約1ヶ月\n■ 使用ツール： Figma,Antigravity,Github\n■ 担当領域： Webデザイン、コーディング、情報設計",
     "gallery": [
       {
-        "gradient": "linear-gradient(135deg, #667eea 0%, #5a3e9a 100%)",
+        "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-2026-02-22-19_11_56.png",
+        "gradient": "linear-gradient(135deg, #89f7fe 0%, #5090e8 100%)",
         "caption": "トップページ"
       },
       {
-        "gradient": "linear-gradient(135deg, #764ba2 0%, #667eea 100%)",
-        "caption": "サービスページ"
+        "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-works-2026-02-22-19_14_36.png",
+        "gradient": "linear-gradient(135deg, #66a6ff 0%, #89f7fe 100%)",
+        "caption": "作品一覧ページ"
       },
       {
-        "gradient": "linear-gradient(135deg, #5a3e9a 0%, #8b6ec0 100%)",
-        "caption": "モバイル版"
+        "image": "/uploads/screencapture-saruta-portfolio-github-io-ViasLibereDesignare-works-detail-html-2026-02-22-19_15_04.png",
+        "gradient": "linear-gradient(135deg, #5090e8 0%, #66a6ff 100%)",
+        "caption": "作品詳細ページ"
       }
-    ]
-  },
-  {
-    "id": "visual-campaign",
-    "title": "Visual Campaign",
-    "category": "graphic",
-    "categoryLabel": "Graphic Design",
-    "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-    "year": "2025",
-    "client": "Sample Client C",
-    "role": "Art Direction / Graphic Design",
-    "description": "大規模キャンペーンのビジュアル制作を担当。コンセプト策定からメインビジュアルの制作、各メディアへの展開まで一貫して手がけました。ターゲット層に響くクリエイティブで、キャンペーンの認知度向上に貢献しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #f093fb 0%, #e04060 100%)",
-        "caption": "メインビジュアル"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #f5576c 0%, #f093fb 100%)",
-        "caption": "SNS展開"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #e04060 0%, #f093fb 50%, #f5576c 100%)",
-        "caption": "印刷物"
-      }
-    ]
+    ],
+    "thumbnail": "/uploads/スクリーンショット 2026-02-22 18.45.00.png"
   },
   {
     "id": "web-asahitec",
@@ -86,235 +40,275 @@
     "description": "■ URL\nhttps://asahitec.studio.site/\n\n■ Design Concept\nターゲットである国内メーカーのご担当者様に「安心して仕事を任せられる」と感じていただけるよう、製造業に不可欠な**「信頼感」「清潔感」「技術力の高さ」**をテーマにデザインしています。\n\n「設備一覧」や「製作実績」「品質保証体制」といったBtoB取引で重視されるコンテンツを分かりやすく整理し、ユーザーが迷わず情報にアクセスできるUIを心がけました。また、企業のコアである「100％日本向けのモノづくりへのこだわり」やSDGsへの取り組みをしっかりと訴求し、お問い合わせへと繋がる導線を設計しています。\n\n■ 制作期間： 約2ヶ月\n■ 使用ツール： Figma, STUDIO\n■ 担当領域： Webデザイン、STUDIO実装、情報設計",
     "gallery": [
       {
+        "image": "/uploads/screencapture-asahitec-studio-site-home-2025-10-28-23_21_15.png",
         "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        "caption": "PC TOP"
+        "caption": "トップページ"
       }
     ],
     "thumbnail": "/uploads/スクリーンショット 2026-02-22 15.14.20.png"
   },
   {
-    "id": "ec-platform",
-    "title": "E-Commerce Platform",
-    "category": "web",
-    "categoryLabel": "Web Design",
-    "gradient": "linear-gradient(135deg, #0c3483 0%, #a2b6df 50%, #6b8cce 100%)",
-    "year": "2024",
-    "client": "Sample Client G",
-    "role": "Web Design / E-Commerce UX",
-    "description": "ECサイトのデザイン・構築プロジェクト。商品の魅力を最大限に伝えるビジュアルデザインと、スムーズな購入体験を実現するUX設計を行いました。売上向上に直結するUI改善も実施しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #0c3483 0%, #6b8cce 100%)",
-        "caption": "トップページ"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #a2b6df 0%, #0c3483 100%)",
-        "caption": "商品ページ"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #6b8cce 0%, #a2b6df 100%)",
-        "caption": "カート・決済"
-      }
-    ]
-  },
-  {
-    "id": "editorial-design",
-    "title": "Editorial Design",
+    "id": "nailsalonsoibelle",
+    "title": "nail salon soi belle",
     "category": "graphic",
-    "categoryLabel": "Graphic Design",
-    "gradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fdfcfb 100%)",
+    "categoryLabel": "Logo,Card Design",
+    "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
     "year": "2024",
-    "client": "Sample Client H",
-    "role": "Editorial Design / Typography",
-    "description": "雑誌・エディトリアルデザインのプロジェクト。読みやすさと美しさを両立したタイポグラフィとレイアウトで、コンテンツの魅力を最大限に引き出しました。",
+    "client": "nail salon soi belle",
+    "role": "Graphic Design",
+    "description": "■ Design Concept\nターゲットである[ターゲット層]に「[ターゲットに抱いてほしい印象（例：安心して任せられる、親しみやすい）]」と感じていただけるよう、[業界・サービス]に求められる**「[キーワード1]」「[キーワード2]」「[キーワード3]」**をテーマにデザインしています。\n\n「[特に見せたい重要コンテンツ1]」や「[重要コンテンツ2]」といったユーザーが求める情報を分かりやすく整理し、迷わず目的のページへアクセスできるUIを心がけました。また、[クライアントやサービスの強み・特徴]をしっかりと視覚化し、最終的な目標である[ゴール（例：お問い合わせ、商品購入、採用エントリー）]へと繋がる導線を設計しています。\n\n■ 制作期間： 約1ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域：ロゴ制作、名刺制作",
     "gallery": [
       {
-        "gradient": "linear-gradient(135deg, #ff9a9e 0%, #e8a0a0 100%)",
-        "caption": "表紙デザイン"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #fecfef 0%, #ff9a9e 100%)",
-        "caption": "誌面レイアウト"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #fdfcfb 0%, #fecfef 100%)",
-        "caption": "タイポグラフィ"
+        "image": "/uploads/nail_salon.jpg",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #5a3e9a 100%)",
+        "caption": "ロゴ、名刺"
       }
-    ]
+    ],
+    "thumbnail": "/uploads/nail salon soi belle logo-01.jpg"
   },
   {
-    "id": "logo-collection",
-    "title": "Logo Collection",
-    "category": "graphic",
-    "categoryLabel": "Graphic Design",
-    "gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
-    "year": "2024",
-    "client": "Various Clients",
-    "role": "Logo Design / Brand Mark Design",
-    "description": "様々な業種のクライアント向けに制作したロゴデザインのコレクション。それぞれのブランドの個性や価値観を反映した、オリジナリティ溢れるデザインを提供しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #a8edea 0%, #c0ddd0 100%)",
-        "caption": "ロゴマーク集 Vol.1"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #fed6e3 0%, #a8edea 100%)",
-        "caption": "ロゴマーク集 Vol.2"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #c0ddd0 0%, #fed6e3 100%)",
-        "caption": "ロゴタイプ集"
-      }
-    ]
-  },
-  {
-    "id": "mobile-app",
-    "title": "Mobile App Design",
-    "category": "uiux",
-    "categoryLabel": "UI/UX",
-    "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-    "year": "2024",
-    "client": "Sample Client D",
-    "role": "UI/UX Design / Prototyping",
-    "description": "モバイルアプリのUI/UXデザインプロジェクト。ユーザーリサーチから情報設計、プロトタイピングまでの全工程を担当。直感的な操作性と美しいビジュアルを両立させたデザインを実現しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #4facfe 0%, #00c8fe 100%)",
-        "caption": "ホーム画面"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",
-        "caption": "詳細画面"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #00c8fe 0%, #00f2fe 50%, #4facfe 100%)",
-        "caption": "設定画面"
-      }
-    ]
-  },
-  {
-    "id": "packaging-design",
-    "title": "Packaging Design",
-    "category": "branding",
-    "categoryLabel": "Branding",
-    "gradient": "linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)",
-    "year": "2024",
-    "client": "Sample Client F",
-    "role": "Packaging Design / Brand Guide",
-    "description": "商品パッケージのデザインとブランドガイドラインの策定。店頭での視認性とブランドの世界観を両立させたパッケージデザインを制作しました。素材選定から印刷管理まで一貫して対応しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #fccb90 0%, #c060d0 100%)",
-        "caption": "パッケージ正面"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #d57eeb 0%, #fccb90 100%)",
-        "caption": "パッケージ展開"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #c060d0 0%, #fccb90 50%, #d57eeb 100%)",
-        "caption": "ブランドガイド"
-      }
-    ]
-  },
-  {
-    "id": "dashboard",
-    "title": "Dashboard Design",
+    "id": "shoken",
+    "title": "UIUX Design",
     "category": "uiux",
     "categoryLabel": "UI/UX",
     "gradient": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
-    "year": "2023",
-    "client": "Sample Client I",
-    "role": "UI/UX Design / Data Visualization",
-    "description": "管理画面のUI/UXデザイン。複雑なデータを直感的に把握できるダッシュボードを設計しました。データビジュアライゼーションにより、意思決定を支援するインターフェースを実現しました。",
+    "year": "2024",
+    "client": "証券会社",
+    "role": "UI/UX Design",
+    "description": "■ Design Concept\n管理画面のUI/UXデザインを担当しました。\n複雑なデータを直感的に把握できるダッシュボードを設計しました。\nデータビジュアライゼーションにより、意思決定を支援するインターフェースを実現しました。\n\n■ 制作期間： 約1年\n■ 使用ツール： Figma\n■ 担当領域： デザインシステム、情報設計",
     "gallery": [
       {
+        "image": "/uploads/状況照会_顧客カード詳細.png",
         "gradient": "linear-gradient(135deg, #a18cd1 0%, #d0a0e8 100%)",
         "caption": "ダッシュボード"
       },
       {
+        "image": "/uploads/状況照会_顧客一覧.png",
         "gradient": "linear-gradient(135deg, #fbc2eb 0%, #a18cd1 100%)",
-        "caption": "分析画面"
+        "caption": "ダッシュボード"
       },
       {
+        "image": "/uploads/状況照会_顧客詳細.png",
         "gradient": "linear-gradient(135deg, #d0a0e8 0%, #fbc2eb 100%)",
-        "caption": "レポート画面"
+        "caption": "ダッシュボード"
       }
-    ]
+    ],
+    "thumbnail": "/uploads/ACI-SC-06（ログイン）-1.png"
   },
   {
-    "id": "portfolio-site",
-    "title": "Portfolio Site",
-    "category": "web",
-    "categoryLabel": "Web Design",
-    "gradient": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
-    "year": "2023",
-    "client": "Sample Client K",
-    "role": "Web Design / Development",
-    "description": "個人ポートフォリオサイトのデザイン・開発。クリエイターの個性と作品を最大限に引き立てるミニマルなデザインを採用。パフォーマンスとアニメーションにこだわった制作を行いました。",
+    "id": "keserasera",
+    "title": "Branding-けせらせら",
+    "category": "branding",
+    "categoryLabel": "Branding,Graphic Design",
+    "gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+    "year": "2024",
+    "client": "和食 けせらせら",
+    "role": "Logo Design / Brand Mark Design / Graphic Design",
+    "description": "様々な業種のクライアント向けに制作したロゴデザインのコレクション。それぞれのブランドの個性や価値観を反映した、オリジナリティ溢れるデザインを提供しました。",
     "gallery": [
       {
-        "gradient": "linear-gradient(135deg, #89f7fe 0%, #5090e8 100%)",
+        "image": "/uploads/ks_logo.png",
+        "gradient": "#ffffff",
+        "caption": "ロゴマーク"
+      },
+      {
+        "image": "/uploads/ks_flyer-01.jpg",
+        "gradient": "linear-gradient(135deg, #fed6e3 0%, #a8edea 100%)",
+        "caption": "チラシ-表"
+      },
+      {
+        "image": "/uploads/ks_flyer-02.jpg",
+        "gradient": "linear-gradient(135deg, #fed6e3 0%, #a8edea 100%)",
+        "caption": "チラシ-裏"
+      }
+    ],
+    "thumbnail": "/uploads/けせらせら.jpg"
+  },
+  {
+    "id": "ceeq",
+    "title": "ceeq-管理者画面",
+    "category": "uiux",
+    "categoryLabel": "UI/UX",
+    "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+    "year": "2024",
+    "client": "ceeq",
+    "role": "UI/UX Design",
+    "description": "■ Design Concept\n管理画面のUI/UXデザインを担当しました。\n複雑なデータを直感的に把握できるダッシュボードを設計しました。\nデータビジュアライゼーションにより、意思決定を支援するインターフェースを実現しました。\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Figma\n■ 担当領域： デザインシステム、情報設計",
+    "gallery": [
+      {
+        "image": "/uploads/ログイン.png",
+        "gradient": "linear-gradient(135deg, #4facfe 0%, #00c8fe 100%)",
+        "caption": "ログイン画面"
+      },
+      {
+        "image": "/uploads/アカウント.png",
+        "gradient": "linear-gradient(135deg, #00c8fe 0%, #00f2fe 50%, #4facfe 100%)",
+        "caption": "アカウント設定画面"
+      }
+    ],
+    "thumbnail": "/uploads/ログイン.png"
+  },
+  {
+    "id": "mynavi",
+    "title": "マイナビ学生の窓口 #春からFES2021",
+    "category": "web",
+    "categoryLabel": "Graphic Design",
+    "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    "year": "2021",
+    "client": "株式会社マイナビ",
+    "role": "Web Design",
+    "description": "■ Design Concept\nマイナビ 学生の窓口が開催する #春からFES2021 のサイトデザイン／制作を担当させていただきました。\n\nコロナ禍の影響により、学生のリアルな場での活動が制限される中、この春から新しい生活を迎え、期待や不安を抱える新入生をサポートし、自分らしい学生生活を送っていただけるよう、著名人やアーティストの応援メッセージを発信したり、全国のサークル・学生団体にも活動をアピールできるスペースを設けたり、学生の窓口本サイトとも連動させながら、座談会やオンラインイベントを告知するなど、学生と社会をつなぐ新たなプラットフォームとして設立。\n\nまた、タイトルにもあるフェス感をしっかり演出できるよう、イラストやあしらいで賑やかさを演出する一方で、遷移などがわかりやすいようにコンテンツを設計。\n多種多様なコンテンツが併存するフェス会場としての成立できるようにしました。\n\nこの時期ならではのさまざまな試みを行うことで、「学生のはじめの一歩を応援する」という、学生の窓口様のコンセプトを体現し、同時に、「新しい学生との関わり方」を提起できるような、そんな予感を感じさせるサイトに仕立てました。\n\n■ 制作期間： 約6ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/01-1.jpg",
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #e04060 100%)",
         "caption": "トップページ"
       },
       {
-        "gradient": "linear-gradient(135deg, #66a6ff 0%, #89f7fe 100%)",
-        "caption": "作品ページ"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #5090e8 0%, #66a6ff 100%)",
-        "caption": "プロフィール"
+        "image": "/uploads/03_b-3.jpg",
+        "gradient": "linear-gradient(135deg, #f5576c 0%, #f093fb 100%)",
+        "caption": "詳細ページ"
       }
-    ]
+    ],
+    "thumbnail": "/uploads/00 (1).jpg"
   },
   {
-    "id": "poster-series",
-    "title": "Poster Series",
+    "id": "Pococha",
+    "title": "Pococha ライバーシティー",
+    "category": "web",
+    "categoryLabel": "Web Design",
+    "gradient": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+    "year": "2020",
+    "client": "株式会社DeNA",
+    "role": "Web Design",
+    "description": "■ Design Concept\nLIVEコミュニケーションアプリ「Pococha」のキャンペーンサイトと動画広告を制作させていただきました。\n\nタイトルのライバーシティに合わせて、ライバーの多様性を表現するため、街並みを意識したデザインで制作しました。\n実際に活動している人気ライバー20人へのインタビューをもとにしたライバー紹介ページでは、各ライバーの個性が伝わるよう、キャッチコピーにもこだわりました。\n\nまた、自分がどのタイプのライバーに適しているかわかる診断メーカーも制作し、SNSに拡散されやすいような画面設計・デザインをしました。\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/00_b.jpg",
+        "gradient": "linear-gradient(135deg, #f6d365 0%, #e89060 100%)",
+        "caption": "ロゴ"
+      },
+      {
+        "image": "/uploads/01_d.jpg",
+        "gradient": "linear-gradient(135deg, #fda085 0%, #f6d365 100%)",
+        "caption": "トップページ"
+      },
+      {
+        "image": "/uploads/02_d.jpg",
+        "gradient": "linear-gradient(135deg, #e89060 0%, #fda085 100%)",
+        "caption": "詳細ページ"
+      }
+    ],
+    "thumbnail": "/uploads/00_b.jpg"
+  },
+  {
+    "id": "bokunchi",
+    "title": "2019-ボクンチ会員サイト",
+    "category": "web",
+    "categoryLabel": "Web Design",
+    "gradient": "linear-gradient(135deg, #ccff00 0%, #1a2e1a 100%)",
+    "year": "2019",
+    "client": "有限会社ボクチン、株式会社電通ミュージック・アンド・エンタテインメント",
+    "role": "Assistant Design",
+    "description": "RADWIMPS有料会員制WEBサービス「ボクンチ」を制作しました。\n\nファンや誰もがいつでも入って楽しめるようなコンセプトで企画された本サービスにあわせて「昔からそこにあったようなミステリアスなテイスト」にデザインしました。\n各コンテンツのドアは、開閉をリアルに再現したく、実は、ひたすらドアを撮影して再現しました…！\nまた、Loading画面で出る鍵は、「ボクンチ プチ内覧会 -60秒チラ見せフェア-」でお配りした「ボクンチの合鍵」となり、リアルとWEBで連動させています。\n\n■ 制作期間： 約6ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント、撮影アシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/01.jpg",
+        "gradient": "linear-gradient(135deg, #ccff00 0%, #3a5a1a 100%)",
+        "caption": "トップページ"
+      }
+    ],
+    "thumbnail": "/uploads/00_thum.jpg"
+  },
+  {
+    "id": "calbee",
+    "title": "calbee-ASMR",
+    "category": "web",
+    "categoryLabel": "Web Design",
+    "gradient": "linear-gradient(135deg, #0c3483 0%, #a2b6df 50%, #6b8cce 100%)",
+    "year": "2019",
+    "client": "カルビー株式会社",
+    "role": "Web Design",
+    "description": "■ Design Concept\n話題のASMRを活用した、コンテンツ開発のお手伝いをさせていただきました！\n\nおいしい商品たちが、食感キャラクターとしてコンテンツ化！\n指でタップすると「ザクッ ザクッ」と咀嚼音を鳴らし、触れた分だけ大きく成長。\n自分だけの食感キャラクター育成コンテンツの誕生です！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/03_b-1.jpg",
+        "gradient": "linear-gradient(135deg, #0c3483 0%, #6b8cce 100%)",
+        "caption": "サイト一覧"
+      },
+      {
+        "image": "/uploads/04_c.jpg",
+        "gradient": "",
+        "caption": "キャラクター一覧"
+      }
+    ],
+    "thumbnail": "/uploads/01-2.jpg"
+  },
+  {
+    "id": "editorial-design",
+    "title": "いろいろなないろ",
+    "category": "web",
+    "categoryLabel": "Web Design",
+    "gradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fdfcfb 100%)",
+    "year": "2019",
+    "client": "株式会社なないろ",
+    "role": "Web Design",
+    "description": "■ Design Concept\n株式会社なないろ様のコーポレートサイトを制作させていただきました。\n\nネオン菅の写真をメインに、色合いやギミックにこだわったデザインにしています。\n\nロケコーディネート等で日頃から弊社も大変お世話になっています。\n撮影に関してお困りの際は、個性あふれる魅力的なメンバーの揃った、なないろ様に「いろいろ、なんでも」相談してみてください！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域： Webデザインアシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/03_b-2.jpg",
+        "gradient": "linear-gradient(135deg, #fdfcfb 0%, #fecfef 100%)",
+        "caption": "トップページ"
+      }
+    ],
+    "thumbnail": "/uploads/00.jpg"
+  },
+  {
+    "id": "BUBBLES",
+    "title": "Branding-BUBBLES",
+    "category": "branding",
+    "categoryLabel": "Branding",
+    "gradient": "linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)",
+    "year": "2019",
+    "client": "ジューススタンド BUBBLES",
+    "role": "Logo / Shop Card / Packaging Design / Web Design / Brand Guide",
+    "description": "■ Design Concept\n青山、駒沢と店舗を構えるジューススタンドBUBBLESが\nNEWoMan新宿2F エキナカに新店舗をオープンするにあたり\nBUBBLES全体のコミュニケーションの整理から\nクリエーティブ開発のお手伝いをさせていただきました。\n\n注文してから、目の前でじっくりと絞ってくれる、\n果物や野菜の本質そのままの味をお楽しみください！\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop など\n■ 担当領域： Webデザインアシスタント、グラフィックデザインアシスタント、撮影アシスタント",
+    "gallery": [
+      {
+        "image": "/uploads/01-3.jpg",
+        "gradient": "linear-gradient(135deg, #fccb90 0%, #c060d0 100%)",
+        "caption": "ロゴ、パッケージ"
+      },
+      {
+        "image": "/uploads/03.jpg",
+        "gradient": "linear-gradient(135deg, #d57eeb 0%, #fccb90 100%)",
+        "caption": "ショップカード、ショッピングバッグ"
+      },
+      {
+        "image": "/uploads/02 (1).jpg",
+        "gradient": "linear-gradient(135deg, #c060d0 0%, #fccb90 50%, #d57eeb 100%)",
+        "caption": "Webサイト"
+      }
+    ],
+    "thumbnail": "/uploads/04-1.jpg"
+  },
+  {
+    "id": "Love-cd",
+    "title": "CDジャケット",
     "category": "graphic",
     "categoryLabel": "Graphic Design",
     "gradient": "linear-gradient(135deg, #c471f5 0%, #fa71cd 100%)",
-    "year": "2023",
-    "client": "Sample Client L",
-    "role": "Art Direction / Poster Design",
-    "description": "イベント向けポスターシリーズのデザイン。コンセプトの立案からビジュアル制作まで一貫して担当。インパクトのあるグラフィックで、イベントの世界観を視覚的に表現しました。",
+    "year": "2019",
+    "client": "株式会社 カフキーノ",
+    "role": "Graphic Design",
+    "description": "■ Design Concept\nシンガーソングライターLOVEさんの9thアルバム「Resonant Grace」のCDジャケットを企画・制作しました。\n\nタイトル名の「Resonant Grace」（共鳴する恵み）からイメージに合う場所を探し、絶景スポットでもある場所をバックに、躍動感あるLOVEさんを撮影させていただきました。シェンが生み出す美しさは恵であり、LOVEさんの歌声がいつまでも響き渡って手に取る人に、幸せになってもらいたいという思いでデザインしました。\n\n■ 制作期間： 約3ヶ月\n■ 使用ツール： Illustrator, Photoshop\n■ 担当領域：CDジャケットデザインアシスタント、撮影アシスタント",
     "gallery": [
       {
+        "image": "/uploads/02.jpg",
         "gradient": "linear-gradient(135deg, #c471f5 0%, #d050b0 100%)",
-        "caption": "ポスター Vol.1"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #fa71cd 0%, #c471f5 100%)",
-        "caption": "ポスター Vol.2"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #d050b0 0%, #fa71cd 100%)",
-        "caption": "ポスター Vol.3"
+        "caption": "CDジャケット"
       }
-    ]
-  },
-  {
-    "id": "restaurant-branding",
-    "title": "Restaurant Branding",
-    "category": "branding",
-    "categoryLabel": "Branding",
-    "gradient": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
-    "year": "2023",
-    "client": "Sample Client J",
-    "role": "Branding / Menu Design / Space Design",
-    "description": "飲食店の総合ブランディングプロジェクト。ロゴ、メニュー、店舗空間のデザインを一貫して担当し、ブランドの世界観を統一しました。ターゲット層のライフスタイルに寄り添ったデザインを提供しました。",
-    "gallery": [
-      {
-        "gradient": "linear-gradient(135deg, #f6d365 0%, #e89060 100%)",
-        "caption": "ロゴ＆サイン"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #fda085 0%, #f6d365 100%)",
-        "caption": "メニューデザイン"
-      },
-      {
-        "gradient": "linear-gradient(135deg, #e89060 0%, #fda085 100%)",
-        "caption": "店舗サイン"
-      }
-    ]
+    ],
+    "thumbnail": "/uploads/01-4.jpg"
   }
 ]
