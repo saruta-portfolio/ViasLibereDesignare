@@ -19,11 +19,35 @@ async function initDetail() {
     return;
   }
 
-  // Meta
-  document.title = `${work.title} | ViasLibereDesignare`;
+  // Meta Data Update
+  const pageTitle = `${work.title} | ViasLibereDesignare`;
+  document.title = pageTitle;
+  
+  const descText = work.description.slice(0, 120);
   const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc)
-    metaDesc.setAttribute("content", work.description.slice(0, 120));
+  if (metaDesc) metaDesc.setAttribute("content", descText);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", pageTitle);
+
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute("content", descText);
+
+  const currentUrl = `https://saruta-portfolio.github.io/ViasLibereDesignare/works/detail.html?id=${work.id}`;
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute("content", currentUrl);
+
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.setAttribute("href", currentUrl);
+
+  const ogThumbPath = work.thumbnail && work.thumbnail.startsWith("/")
+    ? work.thumbnail.slice(1)
+    : work.thumbnail;
+  
+  if (ogThumbPath) {
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage) ogImage.setAttribute("content", `https://saruta-portfolio.github.io/ViasLibereDesignare/${ogThumbPath}`);
+  }
 
   // Hero
   const heroSection = document.getElementById("detail-hero");
